@@ -1,0 +1,237 @@
+body{
+    width: 992px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, white, lightslategray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+section{
+    margin-bottom: 5%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+}
+h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+}
+.tituloPrincipal{
+    text-align: center;
+}
+#imagenes{
+    margin: 2% 2%;
+}
+.logotipos{
+    display: inline;
+}
+
+.logo1{
+    float: left;
+    margin-left: 0;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 0;
+}
+.logo2{
+    float: left;
+    margin-left: 0;
+    width: 33%;
+    text-align: center;
+    padding-top: 3%;
+}
+.logo3{
+    float: left;
+    margin-left: 0;
+    width: 100px;
+    height: 57px;
+    text-align: center;
+    padding-top: 6%;
+}
+.tTexto{
+    float: bottom;
+}
+#colores{
+    margin-top: 230px;
+}
+.color{
+    width: 30%;
+    margin: 0 1%;
+    float: left;
+}
+.colorTexto{
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin: 1% 1%;
+}
+.color1{
+    background-color: #F27405;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+.color2{
+    background-color: #F5A019;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: right;
+}
+.color3{
+    background-color:#33A650;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+.color4{
+    background-color: #1F7343;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: right;
+}
+.color5{
+    background-color: #16558C;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+.color6{
+    background-color: #0D0D0D;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    float: right;
+}
+.tipoTitulos{
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+}
+.tipoTitulos h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+.tipoTitulos h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+.tipoTitulos h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+}
+.tipoTitulos h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+.tipoTexto{
+    box-sizing: border-box;
+    width: 40%;
+    float: right;
+    padding-top: 10%;
+}
+.btnIzq{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.btnDer{
+
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+#botones{
+    clear: both;
+}
+#boton1, #boton2, #boton3, #boton4, #boton5, #boton6{
+    width: 150px;
+    height: 50px;
+}
+#boton1{
+    border: 5px solid #F27405;
+    background-color: #16558C;
+    border-radius: 5px;
+}
+#boton2{
+    border: 5px solid #F27405;
+    background-color: #F27405;
+    border-radius: 5px;
+}
+#boton3{
+    border: 5px solid #F27405;
+    background-color: rgba(245,160,25,.5);
+    border-radius: 5px;
+}
+#boton4{
+    border: 5px solid #1F7343;
+    background-color: #16558C;
+    border-radius: 5px;
+}
+#boton5{
+    border: 5px solid #1F7343;
+    background-color: #1F7343;
+    border-radius: 5px;
+}
+#boton6{
+    border: 5px solid #1F7343;
+    background-color: rgba(51,166,80,.5);
+    border-radius: 5px;
+}
+.btnAbajo{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin: 2% auto;
+    text-align: center;
+}
+#largo{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+
+}
+#medio{
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+
+}
+#pequeño{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.cajaIconos{
+    padding-left: 10%;
+}
+#iconografia img{
+    width: 4%;
+    height: 4%;
+    margin: 1% 1.5%;
+    align-items: center;
+}

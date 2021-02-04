@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <title>Novena página en HTML</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Novena página del manual de HTML">
+    <meta name="description" content="Noveno ejercicio para la clase de DIW, donde se empieza a trabajr en el uso de los formularios para la recepcion y envio de datos">
+    <meta name="keywords" content="novena, formulario, manual, html">
+    <meta name="author" content="Adrian Moreno Rodriguez">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body id="arriba">
+<h1>
+    Formularios - I
+</h1>
+<HR NOSHADE SIZE=1 COLOR=#0000FF>
+<blockquote><a href="07-tablas-1.html">&lt;&lt;Anterior</a>
+    <a href="11-iframes.html">Siguiente>></a>
+    <a href="../index.html">Portada</a></blockquote>
+<HR NOSHADE SIZE=1 COLOR=#0000FF>
+<img src="../img/extension-CV-chrome-.png" alt="composicion logo google-mesa de trabajo" height="300" width="300">
+<h1>Rellena tu perfil</h1>
+<table border="1">
+    <form name="formulario" action="mailto: naidrannaidran@gmail.com" method="post" enctype="text/plain">
+        <tr>
+             <td>
+                    <br><label><b>Nombre</b></label><br><br><input type="text" name="nombre" value="" maxlength="30"><br>
+                    <br><label><b>Apellidos</b></label><br><br><input type="text" name="apellidos" value="" maxlength="80"><br>
+                    <br><label><b>Contraseña</b></label><br><br><input type="password" name="contraseña" value="" maxlength="10"><br>
+                    <br><label><b>DNI</b></label><br><br><input type="text" name="dni" value="" maxlength="9"><br>
+            </td>
+            <td>
+                    <label><b>Sexo</b></label><br><br>
+                    <input type="radio" name="Sexo" value="hombre" checked="checked">Hombre
+                    <input type="radio" name="Sexo" value="mujer">Mujer
+                    <br>
+                    <br>
+                    <label><b>Pais</b></label><br><br>
+                    <select name="pais">
+                        <option value="0">-Selecciona un valor-</option>
+                        <option value="España">España</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Canada">Canadá</option>
+                        <option value="Somalia">Somalia</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label><b>Temas de interés</b></label><br><br>
+                    <p>*Puedes seleccionar más de una opción si mantienes pulsada la tecla CTRL</p>
+                    <select multiple>
+                        <option>Nuevas tecnologías</option>
+                        <option>Deportes</option>
+                        <option>Turismo</option>
+                        <option>Informática de consumo</option>
+                        <option>Decoración</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox"><i>Suscribirme al boletín de novedades</i></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Enviar Datos>>">
+            <input type="button" value="<<Borrar los datos"></td>
+        </tr>
+    </form>
+
+
+</table>
+<HR NOSHADE SIZE=1 COLOR=#0000FF>
+<a align="right" href="#arriba">SUBIR</a>
+</body>
+<script src="js/scripts.js"></script>
+</html>

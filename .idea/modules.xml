@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DIW.iml" filepath="$PROJECT_DIR$/.idea/DIW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DWEC/.idea/DWEC.iml" filepath="$PROJECT_DIR$/../DWEC/.idea/DWEC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DWES/.idea/DWES.iml" filepath="$PROJECT_DIR$/../DWES/.idea/DWES.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Multimedia HTML5/.idea/Multimedia HTML5.iml" filepath="$USER_HOME$/Downloads/Multimedia HTML5/.idea/Multimedia HTML5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../miWebServerHome/.idea/miWebServerHome.iml" filepath="$PROJECT_DIR$/../miWebServerHome/.idea/miWebServerHome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../primerLaravel/.idea/primerLaravel.iml" filepath="$PROJECT_DIR$/../primerLaravel/.idea/primerLaravel.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <title>Pelicula (divs, animaciones e iconos vectoriales)</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Decimotercera página del manual de HTML">
+    <meta name="description"
+          content="Undécimo ejercicio para la clase de DIW, donde se crea una estructura multimedia con divs, a lo que se añade iconos vectoriales y animaciones para texto en CSS">
+    <meta name="keywords" content="decimotercera, multimedia, divs, iconos, manual, html">
+    <meta name="author" content="Adrian Moreno Rodriguez">
+    <style>
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
+    <!--<script src="js/scripts.js"></script>-->
+</head>
+<body>
+<main>
+    <h2>Formulario datos personales</h2>
+    <h3>Es obligatorio completar todos los campos</h3>
+    <section>
+        <form action="mailto:amoreno@alumnos.imf.com" method="post"
+              enctype="text/plain">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre de
+usuario" maxlength="20" pattern="[a-zA-Z0-9]+" required autofocus
+                   title="Sólo números y letras con una longitud máxima de 20 caracteres
+incluidos espacios en blanco">
+            <label for="cp">Código Postal</label>
+            <input type="text" name="cp" id="cp" placeholder="28001 o similar"
+                   pattern="[0-9]{5}" required title="Sólo 5 números del 0 al 9">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" pattern="[0-9]{2}"
+                   placeholder="Edad" required title="Sólo números comprendidos entre 18 y
+99" min="18" max="99">
+            <button type="submit" id="enviar">ENVIAR</button>
+        </form>
+    </section>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,457 @@
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1em;
+    background-image: linear-gradient(to bottom right, white, silver);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    line-height: 25px;
+}
+#fondo{
+    background-image: linear-gradient(to right bottom, gray, gold);
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+.info{
+    text-align: center;
+}
+.inicio{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 100px;
+}
+.p00HTML{
+    text-align: right;
+}
+.hr1{
+    background-color: blue;
+    height: 10px;
+}
+p{
+    text-indent: 0;
+}
+p, ul, ol, li{
+    margin: 2%;
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: #4c110f;
+    color: #4c110f;
+}
+a:visited{
+    color: black;
+}
+table{
+    width: 992px;
+    justify-content: center;
+}
+.separador{
+    margin-left: 610px;
+
+}
+#imagen{
+    float: left;
+    margin-right: 20px;
+    height: 110%;
+}
+main{
+    width: 992px;
+    margin: 2% auto;
+}
+#audio{
+    position: center;
+}
+#banner h1{
+    color: white;
+}
+video{
+    height: 70%;
+}
+#video{
+    display: flex;
+    height: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+#videoPeliculon{
+    display: flex;
+    margin: 5% auto;
+    align-items: center;
+}
+#svg, #svg1, #svg2{
+    width: 2%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: silver;
+    position: sticky;
+    top: 360px;
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+
+.visible-title {
+    visibility: visible;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    height: auto;
+}
+/*-----------------Estilos para el benchmark---------------------*/
+#bodyBench{
+    background-color: whitesmoke;
+    width: 992px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+#totalBench{
+    text-align: center;
+}
+#totalBenchData{
+    text-align: center;
+
+}
+.tituBench{
+    margin-left: 11%;
+}
+#enlaBench, #enlaBench1{
+    text-decoration: none;
+}
+#infoBench{
+    text-align: center;
+}
+#svgBench1{
+    width: 8%;
+    height: auto;
+    padding-right: 2%;
+}
+#svgBench2,#svgBench4{
+    width: 11%;
+    height: auto;
+    padding-right: 2%;
+}
+#svgBench,#svgBench3,#svgBench5{
+    width: 5%;
+    height: auto;
+    padding-right: 2%;
+}
+.infoBench{
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 10%;
+    width: 350px;
+}
+.txt_medidor{
+    position: absolute;
+    margin-top: -30px;
+}
+.ruedas{
+    display: inline-block;
+    width:100px;
+    height:50px;
+}
+.separador{
+    background-color: whitesmoke;
+    height: 10px;
+    width: 100%;
+}
+.titu2Bench{
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.num_total{
+    display: inline-block;
+    margin-left: 11%;
+    font-size: 20px;
+}
+progress{
+    margin-left: 5%;
+    width: 400px;
+    height: 20px;
+}
+.txt_abajo{
+    display: inline-block;
+    margin-left: 10%;
+}
+button{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border-radius: 25px;
+    height: 50px;
+}
+#botonera1, #botonera2{
+    text-align: center;
+}
+.botones{
+    margin-top: 3%;
+}
+.botones:hover{
+    background-color: lightblue;
+    color: white;
+}
+.botones:visited{
+    background-color: gray;
+    color: white;
+}
+.wrapper {
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align:center;
+    width:300px;
+    height:100px;
+    position:relative;
+    display: inline-block;
+}
+.wrapper>div:first-child {
+    position:relative;
+    height:150px;
+    overflow:hidden;
+}
+.wrapper .line {
+    display:inline-block;
+    position:absolute;
+    z-index:-1;
+    width:4px;
+    background-color:#808080;
+    transform: rotate(150deg);
+    transition: all 0.8s ease-out;
+    height:200px;
+    top:12%
+}
+.wrapper .line::after {
+    position: absolute;
+    content:"";
+    top:0%;
+    left:-1px;
+    bottom:50%;
+    right:-1px;
+    background-color:whitesmoke;
+}
+.number {
+    width:20px;
+    left:140px;
+    height:240px;
+    display:inline-block;
+    position:absolute;
+    z-index:-1;
+}
+.number.n0 {
+    transform: rotate(-90deg);
+    bottom:-80px;
+}
+.number.n25 {
+    transform: rotate(-45deg);
+}
+.number.n75 {
+    transform: rotate(45deg);
+}
+.number.n180 {
+    transform: rotate(90deg);
+    bottom:-80px;
+}
+.circle1 {
+    position:absolute;
+    background-color:#353535;
+    top:72%;
+    left:calc(50% - 8px);
+    width:20px;
+    height:20px;
+    border-radius:50% 50%;
+}
+.circle2 {
+    position:absolute;
+    top:24px;
+    left:calc(150px - 95px);
+    width:190px;
+    height:190px;
+    border-radius:50% 50% 0 0;
+    z-index:-2;
+    background: linear-gradient(to right, white, black);
+}
+.circle2::after {
+    position:absolute;
+    content:"";
+    height:50%;
+    background-Color:whitesmoke;
+    top:92px;
+    left:0;
+    width:101%;
+}
+.circle2::before {
+    position:absolute;
+    content:"";
+    top:20px;
+    left:20px;
+    background-Color:whitesmoke;
+    height:calc(100% - 40px);
+    width:calc(100% - 40px);
+    border-radius:50% 50% 0 0;
+}
+.scroll {
+    overflow-x:auto;
+}
+#iframeBench{
+    margin: 5% auto;
+    height: 500px;
+    width: 100%;
+}
+@media(max-width: 992px)  {
+    .wrapper{
+        flex-direction: column;
+    }
+    .ruedas{
+        flex-direction: column;
+    }
+}
+@media(max-width: 458px)  {
+    .wrapper{
+        flex-direction: column;
+    }
+    .ruedas{
+        flex-direction: column;
+    }
+    #infoBench, #dataBench{
+        float: left;
+    }
+    #botonera1, #botonera2, iframe{
+        float: right;
+    }
+}
+@media(max-width: 264px)  {
+    .wrapper{
+        flex-direction: column;
+    }
+    .ruedas{
+        flex-direction: column;
+    }
+    #botonera1, #botonera2{
+        float: left;
+    }
+    iframe{
+        float: right;
+    }
+}
+/*----------------Estilos del formulario-------------------*/
+#bodyContact {
+    background-image: linear-gradient(to bottom right, white, lightslategray);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+}
+
+.form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+}
+
+#enviar{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+}
+
+.form-contact-button:hover {
+    opacity: 1;
+}
+.tituForm{
+    text-align: center;
+}
+/*----------------Estilos redireccion satisfactoria-------------*/
+.mensaje{
+    width: 992px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+/*----------------Estilos flexbox-------------*/

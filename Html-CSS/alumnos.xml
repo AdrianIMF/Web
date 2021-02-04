@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+<alumnos>
+    <alumno>
+        <nombre>Julio José</nombre>
+        <apellido>Heredia</apellido>
+        <notas>
+            <anio>
+                <marcas>
+                    <t1>0</t1>
+                    <t2>0</t2>
+                </marcas>
+            </anio>
+        </notas>
+        <direccion>Cañada Real, chabolo nº 2</direccion>
+    </alumno>
+
+</alumnos>
+-->
+<!--
+Realizar una estructura de datos para la gestion de una tienda de alquiler de videojuegos especializada en las diferentes consolas del mercado actual.
+Nos han solicitado que diseñemos un XML con la información que consideremos más importante (al menos 10).
+Además de:
+    -Nombre del cliente que alquila
+    -Referencia del juego
+    -Fecha de alquiler
+    -Genero
+    -Plataforma (para la que lo alquilas)
+    -Plataformas disponibles
+    -Precio
+-->
+<tiendaVideojuegos>
+    <juego cantidad="30" referencia="1">
+        <cliente>
+            <nomCliente>Sevilla, Ernesto</nomCliente>
+            <fecha>2020-00-00</fecha>
+            <duracion>10 dias</duracion>
+        </cliente>
+        <nombre>FIFA</nombre>
+        <anio>2002</anio>
+        <genero>Deportes</genero>
+        <plataforma>PS4</plataforma>
+        <platDisponibles>
+            <plataforma>PS4</plataforma>
+            <plataforma>PC</plataforma>
+            <plataforma>XBOX</plataforma>
+        </platDisponibles>
+        <precio>20,00</precio>
+    </juego>
+    <juego cantidad="21" referencia="2">
+        <cliente>
+            <nomCliente>Palotes, Perico el de los</nomCliente>
+            <fecha>2020-11-11</fecha>
+            <duracion>4 dias</duracion>
+        </cliente>
+        <nombre>CoD</nombre>
+        <anio>2005</anio>
+        <genero>Accion</genero>
+        <plataforma>PS4</plataforma>
+        <platDisponibles>
+            <plataforma>PS4</plataforma>
+            <plataforma>XBOX</plataforma>
+            <plataforma>PC</plataforma>
+        </platDisponibles>
+        <precio>25,00</precio>
+    </juego>
+    <juego cantidad="10" referencia="3">
+        <cliente>
+            <nomCliente>Porras, Paco</nomCliente>
+            <fecha>2020-22-22</fecha>
+            <duracion>6 dias</duracion>
+        </cliente>
+        <nombre>God of War 3</nombre>
+        <anio>2007</anio>
+        <genero>Accion</genero>
+        <plataforma>XBOX</plataforma>
+        <platDisponibles>
+            <plataforma>PS4</plataforma>
+            <plataforma>XBOX</plataforma>
+            <plataforma>PC</plataforma>
+        </platDisponibles>
+        <precio>20,00</precio>
+    </juego>
+    <juego cantidad="40" referencia="4">
+        <cliente>
+            <nomCliente>Camela, Benito</nomCliente>
+            <fecha>2020-33-33</fecha>
+            <duracion>3 dias</duracion>
+        </cliente>
+        <nombre>Mario Kart Wii</nombre>
+        <anio>2010</anio>
+        <genero>Accion y aventura</genero>
+        <plataforma>Wii</plataforma>
+        <platDisponibles>
+            <plataforma>Wii</plataforma>
+        </platDisponibles>
+        <precio>15,00</precio>
+    </juego>
+    <juego cantidad="120" referencia="5">
+        <cliente>
+            <nomCliente>Lu, Chin</nomCliente>
+            <fecha>2020-44-44</fecha>
+            <duracion>12 dias</duracion>
+        </cliente>
+        <nombre>Gran Turismo 6</nombre>
+        <anio>2015</anio>
+        <genero>Deportes, Conduccion</genero>
+        <plataforma>PS4</plataforma>
+        <platDisponibles>
+            <plataforma>PS4</plataforma>
+            <plataforma>XBOX</plataforma>
+            <plataforma>PC</plataforma>
+        </platDisponibles>
+        <precio>50,00</precio>
+    </juego>
+    <juego cantidad="60" referencia="6">
+        <cliente>
+            <nomCliente>Ortega, Amancio</nomCliente>
+            <fecha>2020-55-55</fecha>
+            <duracion>20 dias</duracion>
+        </cliente>
+        <nombre>NintenDogs</nombre>
+        <anio>2007</anio>
+        <genero>Familiar</genero>
+        <plataforma>NDS</plataforma>
+        <platDisponibles>
+            <plataforma>GameBoy</plataforma>
+            <plataforma>NDS</plataforma>
+            <plataforma>3DS</plataforma>
+        </platDisponibles>
+        <precio>5,00</precio>
+    </juego>
+    <juego cantidad="18" referencia="7">
+        <cliente>
+            <nomCliente>II, Felipe</nomCliente>
+            <fecha>2020-66-66</fecha>
+            <duracion>11 dias</duracion>
+        </cliente>
+        <nombre>Pokemon Esmeralda</nombre>
+        <anio>1998</anio>
+        <genero>Aventura, Familiar</genero>
+        <plataforma>GameBoy</plataforma>
+        <platDisponibles>
+            <plataforma>GameBoy</plataforma>
+        </platDisponibles>
+        <precio>10,00</precio>
+    </juego>
+    <juego cantidad="39" referencia="8">
+        <cliente>
+            <nomCliente>Norris, Chuck</nomCliente>
+            <fecha>2020-77-77</fecha>
+            <duracion>22 dias</duracion>
+        </cliente>
+        <nombre>Cooking Mama</nombre>
+        <anio>2005</anio>
+        <genero>Familiar</genero>
+        <plataforma>NDS</plataforma>
+        <platDisponibles>
+            <plataforma>NDS</plataforma>
+            <plataforma>PC</plataforma>
+        </platDisponibles>
+        <precio>2,00</precio>
+    </juego>
+    <juego cantidad="28" referencia="9">
+        <cliente>
+            <nomCliente>el churrero, Emilio</nomCliente>
+            <fecha>2020-88-88</fecha>
+            <duracion>2 dias</duracion>
+        </cliente>
+        <nombre>Wii Sports</nombre>
+        <anio>2008</anio>
+        <genero>Deportes</genero>
+        <plataforma>Wii U</plataforma>
+        <platDisponibles>
+            <plataforma>Wii</plataforma>
+            <plataforma>Wii U</plataforma>
+        </platDisponibles>
+        <precio>22,00</precio>
+    </juego>
+    <juego cantidad="47" referencia="10">
+        <cliente>
+            <nomCliente>Bean, Mr</nomCliente>
+            <fecha>2020-99-99</fecha>
+            <duracion>10 dias</duracion>
+        </cliente>
+        <nombre>Street Fighter</nombre>
+        <anio>1992</anio>
+        <genero>Accion</genero>
+        <plataforma>Game Cube</plataforma>
+        <platDisponibles>
+            <plataforma>Game Cube</plataforma>
+        </platDisponibles>
+        <precio>5,00</precio>
+    </juego>
+</tiendaVideojuegos>
